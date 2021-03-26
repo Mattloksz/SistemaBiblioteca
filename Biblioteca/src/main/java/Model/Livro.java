@@ -7,7 +7,7 @@ public class Livro {
 	private Double valorDiaria;
 	private Integer exemplares;
 	private Integer reservadas;
-	private LocacaoItem locacaoItem;
+	LocacaoItem locacaoItem;
 	
 	public Livro() {
 			

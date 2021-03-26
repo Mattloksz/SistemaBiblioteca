@@ -8,7 +8,7 @@ public class Endereco {
 	private String localidade;
 	private String uf;
 	private Integer ibge;
-	private Cadastro cadastro;
+	Cadastro cadastro;
 	
 	public Endereco() {
 		

@@ -8,7 +8,7 @@ public class Cadastro {
 	 private String telefone;
 	 private String login;
 	 private String senha;
-	 private Locacao locacao;
+	 Locacao locacao;
 	 
 	 public Cadastro() {
 			

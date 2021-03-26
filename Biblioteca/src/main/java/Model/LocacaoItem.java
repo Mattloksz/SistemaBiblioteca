@@ -9,7 +9,7 @@ public class LocacaoItem {
 	private Integer diarias;
 	private Double valorDiaria;
 	private Double valorLocacao;
-	private Locacao locacao;
+	Locacao locacao;
 	
 	public LocacaoItem() {
 		
