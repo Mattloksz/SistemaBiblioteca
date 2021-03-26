@@ -1,14 +1,14 @@
 package Model;
 
 public class Cadastro {
-	 Long idCadastro;
-	 String cpf;
-	 String nome;
-	 String email;
-	 String telefone;
-	 String login;
-	 String senha;
-	 Locacao locacao;
+	 private Long idCadastro;
+	 private String cpf;
+	 private String nome;
+	 private String email;
+	 private String telefone;
+	 private String login;
+	 private String senha;
+	 private Locacao locacao;
 	 
 	 public Cadastro() {
 			

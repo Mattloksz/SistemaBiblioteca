@@ -1,14 +1,14 @@
 package Model;
 
 public class Endereco {
-	Long idEndereco;
-	String cep;
-	String logradouro;
-	String bairro;
-	String localidade;
-	String uf;
-	Integer ibge;
-	Cadastro cadastro;
+	private Long idEndereco;
+	private String cep;
+	private String logradouro;
+	private String bairro;
+	private String localidade;
+	private String uf;
+	private Integer ibge;
+	private Cadastro cadastro;
 	
 	public Endereco() {
 		

@@ -1,15 +1,13 @@
 package Model;
 
-import java.sql.Date;
-
 public class Livro {
-	Long idLivro;
-	String isbn;
-	String titulo;
-	Double valorDiaria;
-	Integer exemplares;
-	Integer reservadas;
-	LocacaoItem locacaoItem;
+	private Long idLivro;
+	private String isbn;
+	private String titulo;
+	private Double valorDiaria;
+	private Integer exemplares;
+	private Integer reservadas;
+	private LocacaoItem locacaoItem;
 	
 	public Livro() {
 			

@@ -3,13 +3,13 @@ package Model;
 import java.sql.Date;
 
 public class LocacaoItem {
-	Long idLocacaoItem;
-	Date dataPrevisaoEntrega;
-	Date dataEntrega;
-	Integer diarias;
-	Double valorDiaria;
-	Double valorLocacao;
-	Locacao locacao;
+	private Long idLocacaoItem;
+	private Date dataPrevisaoEntrega;
+	private Date dataEntrega;
+	private Integer diarias;
+	private Double valorDiaria;
+	private Double valorLocacao;
+	private Locacao locacao;
 	
 	public LocacaoItem() {
 		

@@ -3,11 +3,11 @@ package Model;
 import java.util.Date;
 
 public class Locacao {
-	 Long idLocacao;
-	 Date dataAgendamento;
-	 Date dataRetirada;
-	 Date dataFinalizada;
-	 Double valorTotal;
+	private Long idLocacao;
+	private Date dataAgendamento;
+	private Date dataRetirada;
+	private Date dataFinalizada;
+	private Double valorTotal;
 	 
 	 public Locacao() {
 			
